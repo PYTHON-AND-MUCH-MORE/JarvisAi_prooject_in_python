@@ -3,7 +3,7 @@ import speech_recognition as speech_recognition
 import datetime
 import webbrowser as wb
 import pywhatkit
-import wikipedia
+import wikipedia  
 
 
 engine = p3.init("sapi5")
