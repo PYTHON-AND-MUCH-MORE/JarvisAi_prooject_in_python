@@ -79,6 +79,10 @@ def searchWikipedia(query):
 
 def answer():
       if len(query[0]) >= 1:
+             if "bhenchod" in query[(len(query)-1)]:
+                 ans = "you are a madarchod"
+                 print(ans)
+                 speak(ans)
             if "how are you" in query[(len(query)-1)]:
                   ans = "I am fine , What about you"
                   print(ans,"?")
